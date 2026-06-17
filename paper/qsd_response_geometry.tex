@@ -2157,9 +2157,8 @@ natural sequel.
 \subsection*{Code availability}
 {\sloppy
 The source code (figure and verification scripts, the walkthrough notebook, and the Lean~4 kernels) is
-available at the project repository
-\textsf{[\textsc{repository url --- author to insert}]} and archived at
-\textsf{[\textsc{Zenodo DOI --- author to mint}]}; the kernels and notebook are also bundled as arXiv
+available at the project \href{https://github.com/asarkar17812/qsd_response_geometry_public}{
+\textsf{\textsc{repository}}}; the kernels and notebook are also bundled as arXiv
 ancillary files.
 All numerical claims in the paper are reproducible from the ancillary code:
 \texttt{verify\_identities.py} checks every displayed first- and second-order
@@ -2184,7 +2183,7 @@ algebraic kernel, Figure~\ref{fig:unbounded}); the load-bearing rational identit
 are machine-checked in the Lean~4~\cite{deMouraUllrich2021} kernels
 \texttt{UnboundedLyapunovKernel.lean} and
 \texttt{InfiniteDimQSDKernel.lean}, which ship self-contained in the companion subfolder
-\texttt{lean/} with an executable walkthrough in \texttt{notebooks/}. The Lean layer verifies only
+\texttt{lean/} with an executable walkthrough in \texttt{notebook/}. The Lean layer verifies only
 the \emph{rational core} over $\mathbb{Q}$---the group-inverse identity $(Q+\Lambda I)R=I-h\otimes\nu$
 on the finite instance and Example~\ref{ex:unbounded}'s exactly-solvable Poisson QSD
 ($\Lambda=1/6$, gap $3/5$, $N_0=7$)---and \emph{not} the analytic Krein--Rutman/Kato content

@@ -27,7 +27,7 @@ We verify, over many random theta: nu matches the exponential family; -Lambda is
 Q is Metzler; h != 1; the pullback Fisher equals Cov(f_a,f_b) (e-flatness); the response formula
 eq.(5) with c_j holds; and c_j is active (the killed-case machinery is genuinely exercised).
 
-Run:  PYTHONUTF8=1 python -m analysis.eflat_nonuniform_qsd
+Run:  python eflat_nonuniform_qsd.py
 Outputs: output/eflat_nonuniform_qsd.json
 """
 from __future__ import annotations

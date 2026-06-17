@@ -4,7 +4,6 @@ Every boxed/displayed formula in the paper is checked here by finite differences
 against a parametrized irreducible Metzler sub-generator family Q(theta).
 """
 import numpy as np
-rng = np.random.default_rng(0)
 np.set_printoptions(precision=6, suppress=True)
 
 n = 4  # state-space size of the living class T
@@ -15,9 +14,7 @@ def make_Q(theta):
     matrix is genuinely Metzler and irreducible, with a killing vector q>=0,
     q!=0 (killing only out of state 0, say)."""
     p = len(theta)
-    # base off-diagonal log-rates (fixed), perturbed linearly by theta
-    A = rng.normal(size=(n, n))
-    # deterministic base so the family is reproducible across calls:
+    # deterministic base off-diagonal log-rates, perturbed linearly by theta (reproducible across calls)
     base = np.array([[0.0, 0.3, -0.2, 0.1],
                      [0.2, 0.0, 0.4, -0.1],
                      [-0.3, 0.1, 0.0, 0.5],

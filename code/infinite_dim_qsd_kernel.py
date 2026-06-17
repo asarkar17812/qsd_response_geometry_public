@@ -16,7 +16,7 @@ limit argument. We verify them (a) EXACTLY over the rationals on a hand-built 2-
 same instance machine-checked in lean/InfiniteDimQSDKernel.lean), and (b) to high precision on the
 model's actual 5x5 killed living generator.
 
-Run:  PYTHONUTF8=1 python -m analysis.infinite_dim_qsd_kernel
+Run:  python infinite_dim_qsd_kernel.py
 Outputs: output/infinite_dim_qsd_kernel.json
 """
 from __future__ import annotations
