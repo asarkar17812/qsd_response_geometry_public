@@ -57,7 +57,7 @@ The Perturbation Calculus and Information Geometry\\ of Parametrized Sub-Markovi
 \address{New York University}
 \email{as17812@nyu.edu}
 
-\date{\today}
+\date{June 2026}
 
 \subjclass[2020]{Primary 15B48, 47A55, 53B12; Secondary 15A18, 62B11, 60J27, 58K05}
 
@@ -1848,7 +1848,7 @@ that makes infinite-dimensional QSD theory hard. This section lifts the response
 non-compact state spaces, the missing ingredients supplied by a Foster--Lyapunov drift in place of
 finite Perron--Frobenius; as the status note records, the countable case is a rigorous corollary
 discharged on Example~\ref{ex:unbounded}, the diffusion case a sketch (Remark~\ref{rem:inf-diffusion}).
-Companion proof notes, available with the source, hold the routine verifications.
+The remaining verifications are routine.
 
 \subsection{Setting and hypotheses}
 Let $E$ be a Polish state space (countable discrete, or a domain in $\R^d$), $\partial$
@@ -1929,8 +1929,7 @@ dimensions; in $B_W$ it is an assumption, not a conclusion --- see the proof.)
 Proposition~\ref{thm:inf-exist} is the cited assembly under Assumption~\ref{ass:infinite};
 Proposition~\ref{thm:inf-response} and Theorem~\ref{thm:inf-fold} are then elementary
 deductions \emph{conditional on its conclusions} (an isolated simple eigentriple and a
-bounded reduced resolvent). We give all three here (companion proof notes hold only the routine
-verifications).
+bounded reduced resolvent). We give all three here; the remaining verifications are routine.
 For the countable case the hypotheses (H1)--(H4) are moreover discharged concretely in
 Example~\ref{ex:unbounded}, so the assembled eigentriple is realized, not merely conditional.
 
@@ -2001,8 +2000,7 @@ confining drifts, e.g.\ Ornstein--Uhlenbeck with killing, but model-dependent), 
 (ii) the control of the essential spectrum showing the principal eigenvalue is isolated
 in $B_W$ and the group inverse bounded there. Both are classical
 (Champagnat--Villemonais for (i); Agmon/weighted-space spectral theory for (ii)) but are
-operator-theoretic verifications we record only in sketch
-(in the companion proof notes); the countable case
+operator-theoretic verifications we record only in sketch; the countable case
 (Propositions~\ref{thm:inf-exist},~\ref{thm:inf-response} and Theorem~\ref{thm:inf-fold}, Example~\ref{ex:unbounded}) is the
 one carried out in full. We state this as a roadmap, not a proposition, precisely because (i)--(ii)
 are not discharged here.
@@ -2157,8 +2155,8 @@ natural sequel.
 \subsection*{Code availability}
 {\sloppy
 The source code (figure and verification scripts, the walkthrough notebook, and the Lean~4 kernels) is
-available at the project \href{https://github.com/asarkar17812/qsd_response_geometry_public}{
-\textsf{\textsc{repository}}}; the kernels and notebook are also bundled as arXiv
+available at the \href{https://github.com/asarkar17812/qsd_response_geometry_public}{
+\textsf{\textsc{project repository}}}; the kernels and notebook are also bundled as arXiv
 ancillary files.
 All numerical claims in the paper are reproducible from the ancillary code:
 \texttt{verify\_identities.py} checks every displayed first- and second-order
