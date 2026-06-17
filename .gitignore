@@ -15,3 +15,5 @@ paper/*.tex
 # Lean build artifacts
 lean/.lake/
 lean/build/
+# MacOS build artifacts
+.DS_Store
