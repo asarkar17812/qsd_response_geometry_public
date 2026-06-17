@@ -1,0 +1,32 @@
+Let theta -> Q(theta) be a real-analytic family of irreducible Metzler matrices with
+nonpositive, not identically vanishing row sums -- the generators of killed
+(sub-Markovian) continuous-time Markov chains. The principal spectral datum is the pair
+(Lambda, nu): the magnitude Lambda > 0 of the spectral abscissa (the decay rate) and the
+associated positive left Perron eigenvector nu, normalized to a probability vector (the
+quasi-stationary distribution, QSD). We develop a closed first-order response calculus for
+(Lambda, nu) on the irreducible locus, whose organizing object is the rate channel: the
+decay rate Lambda is a second response coordinate with no analogue in the conservative
+stationary-chain theory, supplying a rank-one term throughout. Algebraic simplicity and a
+strict spectral gap are rigid on this locus, giving an invariant-subspace splitting with
+rank-one projection P = h nu and reduced resolvent (group inverse) R = (Q + Lambda I)^#;
+the exact derivatives of Lambda, nu, and P are a Hellmann-Feynman pairing and a
+reduced-resolvent action with an explicit normalization correction, reducing to the
+classical group-inverse sensitivity calculus of conservative chains in the no-killing limit
+Lambda -> 0. The QSD map pulls the Fisher-Rao metric of the simplex back to a Fisher
+information metric G = J^T diag(1/nu) J -- the Kullback-Leibler Hessian, with null space the
+non-identifiable directions -- augmented by a rank-one rate channel adjoining log Lambda.
+Under a self-consistent coupling, a regular branch approaching a simple fold acquires a
+rank-one sigma^{-1} response of the datum and a sigma^{-2} divergence of the pulled-back
+Fisher metric, gated by an explicit condition fixing which channel -- the QSD law nu or the
+rate Lambda -- inherits it. The four classical pillars (Perron-Frobenius, Kato/group-inverse
+perturbation theory, information geometry, fold theory) are used as tools; what is new
+is the killed-case calculus organized around the rate channel, the channel split between
+d nu and d Lambda, the which-channel fold-transport bookkeeping with its observable-coupling
+condition, and an exactly e-flat, properly-non-uniform realizability witness.
+
+The calculus transports to the operator setting: under a Foster-Lyapunov drift the principal
+datum, its fold amplification, and the Lambda -> 0 recovery lift to non-compact state spaces
+as a rigorous corollary of cited QSD theory, discharged on an exactly-solvable countable
+birth-death-with-killing instance, with the diffusion case at sketch level. The finite-N
+fluctuation layer and the resulting fold-sensing Cramer-Rao floor are developed in a
+companion paper (in preparation), of which this paper is the deterministic core.

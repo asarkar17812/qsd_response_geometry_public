@@ -1,0 +1,8 @@
+\documentclass main: qsd_response_geometry.tex
+Figures: figures/{scalar_fold,channel_split,fold_example}.pdf, unbounded_qsd_lyapunov.png
+Bibliography: embedded (thebibliography); no external .bib.
+Engine: pdflatex (two passes; standard TeX Live, no nonstandard packages).
+Ancillary files (anc/): Lean 4 rational-core kernels (UnboundedLyapunovKernel.lean,
+  InfiniteDimQSDKernel.lean) with scope tables (MAPPING.md, AXIOMS.md); the verification
+  script (verify_identities.py); the figure scripts; and the walkthrough notebook
+  (qsd_response_geometry_walkthrough.ipynb). The Lean layer checks only rational cores over Q.
