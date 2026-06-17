@@ -11,7 +11,7 @@ paper/*.toc
 paper/*.fls
 paper/*.fdb_latexmk
 paper/*.synctex.gz
-paper/*.tex
+paper/qsd_response_geometry.tex
 # Lean build artifacts
 lean/.lake/
 lean/build/
